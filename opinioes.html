@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>Literatura de Cordel</title>
+	<meta charset="utf-8"/>
+	<meta name="author" content="Jordana Rosa">
+	<meta name="keywords" content="xilogravura, manifestação literaria, folheto de cordel, rimada, rima">
+	<meta name="description" content="Literatura de cordel também conhecida no Brasil como folheto, literatura popular em verso, ou simplesmente cordel, é um gênero literário popular escrito frequentemente na forma rimada, originado em relatos orais e depois impresso em folhetos.">
+	<link rel="stylesheet" type="text/css" href="estilo.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Averia+Sans+Libre&family=Barrio&display=swap" rel="stylesheet">
+	
+</head>
+	<body>
+		<header>
+
+	<img src="img/banner.png" alt="Foto com cactos, bandeiras, céu estrelado, e nome literatura de cordel" />
+		</header>
+
+			<nav>		
+				<a class="a-menu"href="index.html">SOBRE</a>
+				<a class="a-menu" href="index.html#pag-caracteristicas">PRINCIPAIS CARACTERISTICAS</a>
+				<a class="a-menu"href="index.html#pag-xilogravura">XILOGRAVURA</a>
+				<a class="a-menu" href="index.html#pag-RXC">REPENTE X CORDEL</a>
+				<a class="a-menu" href="http://www.ablc.com.br/">SITE ESPECIALIZADO</a>
+				<a class="a-menu" href="#">OPINIÕES</a>
+			</nav>
+
+	<section id="pag-opinioes">
+		<h1>Opiniões</h1>		
+		
+		<p>Deixe aqui sua opinião sobre o site :)</p> 
+		
+		<form name="" method="" action="">
+			<label for="nome">Nome:</label>
+			<input id="nome" type="text" name="nome_completo" placeholder="Digite seu nome completo" required /><br/>
+
+			<label for="email">E-mail:</label>
+			<input id="email" type="email" name="email" placeholder="fulanodetal@email.com" />
+
+			<label for="senha">Senha:</label>
+			<input id="senha" type="password" name="senha" placeholder="Somente números, mofio" />
+
+			<label for="celular">Celular:</label>
+			<input id="celular" type="tel" name="celular" placeholder="(99)99999-9999" pattern="^\(?\d{2}\)\d{5}[-\s]\d{4}.*?$">
+
+		<div id="data-hora-nota">
+			<div>
+				<label for="data">Data:</label>
+				<input id="data" type="date" name="data">
+			</div>
+
+			<div>
+				<label for="">Hora:</label>
+				<input id="hora" type="time" name="hora">
+			</div>
+			
+			<div>
+				<label for="nota">Nota do site:</label>
+				<input id="nota" type="number" name="nota" min="1" max="10" step="1">
+			</div>	
+
+		</div>	
+			<label for="satisfacao">Satisfação com o site:</label>
+			<select id="satisfacao" name="satisfacao">
+				<option>Selecione</option>
+				<option value="baixa">Baixa</option>
+				<option value="regular">Regular</option>
+				<option value="media">Média</option>
+				<option value="alta">Alta</option>
+			</select>
+			
+			<fieldset>
+				<legend>Você se identifica como?</legend>
+				<input id="masc" type="radio" name="genero" value="masc" /><label for="masc">Homi</label><br/>
+				<input id="fem" type="radio" name="genero" value="fem" /><label for="fem">Muié</label>
+			</fieldset>
+
+			<fieldset>
+				<legend>O que mais achou interessante?</legend>
+				<input id="pc" type="checkbox" name="atencao" value="principais caracteristicas"><label>Principais Características</label>
+				<br/>
+				<input id="xilo" type="checkbox" name="atencao" value="xilogravura"><label>Xilogravura</label>
+				<br/>
+				<input id="rxc" type="checkbox" name="atencao" value="repentexcordel"><label>Repente x Cordel</label>
+				<br/>
+			</fieldset>
+
+				<label for="msg">Mensagem</label><br/>
+				<textarea id="msg" cols="80" rows="4">
+				</textarea>
+			<div id="botoes-form">
+				<input type="submit" name="bnt-enviar" value="ENVIAR" />
+				<input type="reset" name="bnt-cancelar" value="CANCELAR" />	
+			</div>	
+		</form>
+	</section>
+
+		
+		<footer>
+			<p>Desenvolvido por <a href="https://www.linkedin.com/in/jordana-rosa-barbosa-7b2118124" target="_blank">Jordana Rosa Barbosa</a> - 2022</p>
+		</footer>
+		
+  	</body>  		
+</html>
